@@ -30,3 +30,21 @@ img.shadow { box-shadow: 0 2px 4px #ccc; }
 .border-vert { border-left: solid 1px #ccc; border-right: solid 1px #ccc; }
 hr.block { width: 100px; height: 10px; background: #efefef; border: none; margin: 20px auto; }
 ```
+
+<h2>Columns</h2>
+This is my take on the grid, no more col-12 type stuff, just simply math thanks to box-sizing.
+```
+<div class="col-wrap cf">
+  <div class="col col-40">40%</div>
+  <div class="col col-60">60%</div>
+</div>
+```
+
+<h2>Padding and Margins</h2>
+```
+<div class="pad-sml"></div>
+<div class="pad-vert-med"></div>
+<div class="mar-horz-lrg"></div>
+<div class="mar-bot-1"></div>
+<div class="mar-xlrg mar-no-top"></div>
+```
