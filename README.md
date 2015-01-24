@@ -8,6 +8,10 @@ Here are some of the main highlights for each section.
 <h2>Structure</h2>
 Simple classes to build wrappers and position text.
 ```
+<div class="centered">
+  <div class="img full-coverage"><img src="#" class="block"></div>
+</div>
+
 .full-coverage { top: 0; right: 0; bottom: 0; left: 0; }
 .centered { max-width: 1080px; margin-left: auto; margin-right: auto; }
 .middle { margin-left: auto; margin-right: auto; }
@@ -15,7 +19,10 @@ Simple classes to build wrappers and position text.
 ```
 <h2>Decorative</h2>
 This section contains styles for images and borders.
+
 ```
+<img src='#' class="circle border shadow">
+
 img.circle { border-radius: 100%; }
 img.border { border: solid 3px #fff; }
 img.shadow { box-shadow: 0 2px 4px #ccc; }
