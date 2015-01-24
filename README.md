@@ -41,6 +41,7 @@ This is my take on the grid, no more col-12 type stuff, just simply math thanks 
 ```
 
 <h2>Padding and Margins</h2>
+Tons of padding and margin options. All based on 5px, 10px, 20px & 40px increments. Having worked with them for a while the should be in an order that makes for proper overriding and multiple class adding.
 ```
 <div class="pad-sml"></div>
 <div class="pad-vert-med"></div>
