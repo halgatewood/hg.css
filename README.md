@@ -31,7 +31,7 @@ img.shadow { box-shadow: 0 2px 4px #ccc; }
 hr.block { width: 100px; height: 10px; background: #efefef; border: none; margin: 20px auto; }
 ```
 
-<h2>Columns</h2>
+<h2>Responsive Columns</h2>
 This is my take on the grid, no more col-12 type stuff, just simply math thanks to box-sizing.
 ```
 <div class="col-wrap cf">
