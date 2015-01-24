@@ -32,7 +32,7 @@ hr.block { width: 100px; height: 10px; background: #efefef; border: none; margin
 ```
 
 <h2>Responsive Columns</h2>
-This is my take on the grid, no more col-12 type stuff, just simply math thanks to box-sizing.
+This is my take on the grid, no more col-12 type stuff, just simply math thanks to box-sizing. The .col-wrap class causes the responsive wrapping.
 ```
 <div class="col-wrap cf">
   <div class="col col-40">40%</div>
