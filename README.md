@@ -5,8 +5,9 @@ It starts with some basic Box-Sizing, Normalize and Clearfix. Love these!
 
 Here are some of the main highlights for each section.
 
-<h2>Structure</h2>
+## Structure
 Simple classes to build wrappers and position text.
+
 ```
 <div class="centered">
   <div class="img full-coverage"><img src="#" class="block"></div>
@@ -17,7 +18,8 @@ Simple classes to build wrappers and position text.
 .middle { margin-left: auto; margin-right: auto; }
 .hidden, .hide { display: none; }
 ```
-<h2>Decorative</h2>
+
+## Decorative
 This section contains styles for images and borders.
 
 ```
@@ -31,8 +33,9 @@ img.shadow { box-shadow: 0 2px 4px #ccc; }
 hr.block { width: 100px; height: 10px; background: #efefef; border: none; margin: 20px auto; }
 ```
 
-<h2>Responsive Columns</h2>
+## Responsive Columns
 This is my take on the grid, no more col-12 type stuff, just simply math thanks to box-sizing. The .col-wrap class causes the responsive wrapping.
+
 ```
 <div class="col-wrap cf">
   <div class="col col-40">40%</div>
@@ -40,8 +43,9 @@ This is my take on the grid, no more col-12 type stuff, just simply math thanks 
 </div>
 ```
 
-<h2>Padding and Margins</h2>
+## Padding and Margins
 Tons of padding and margin options. All based on 5px, 10px, 20px & 40px increments. Having worked with them for a while the should be in an order that makes for proper overriding and multiple class adding.
+
 ```
 <div class="pad-sml"></div>
 <div class="pad-vert-med"></div>
